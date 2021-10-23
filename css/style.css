@@ -93,7 +93,7 @@ body{
     max-width: 400px;
 }
 .slide-image{
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     top: 0;
     left: 0;
@@ -135,12 +135,12 @@ body{
     font-size: 14px;
     line-height: 23px;
 }
-.slide-summer{
+/* .slide-summer{
     z-index: -2;
     background-image: url(/img/summer.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .slide::before{
     z-index: -1;
     content: '';

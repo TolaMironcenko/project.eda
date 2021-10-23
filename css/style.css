@@ -92,8 +92,16 @@ body{
     position: relative;
     max-width: 400px;
 }
+.slide-image{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .slide-text-light{
-    background-color:grey;
+    /* background-color:grey; */
     color:white;
 }
 .slide-title{
@@ -128,20 +136,20 @@ body{
     line-height: 23px;
 }
 .slide-summer{
+    z-index: -2;
     background-image: url(/img/summer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide::before{
-    content:'';
+    z-index: -1;
+    content: '';
     position: absolute;
-    right: 0;
     left: 0;
     top: 0;
-    bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%); 
 }
 .promo{
     display: flex;

@@ -11,7 +11,7 @@ body{
 .header{
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .search-form{
     margin-left: 76px;

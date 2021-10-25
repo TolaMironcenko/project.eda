@@ -155,9 +155,10 @@ body{
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    margin: -22px;
 }
 .card{
+    margin: 22px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -221,6 +222,265 @@ body{
     height: 100%;
     z-index: -2;
 }
-.card-two{
-    margin-left: 54px;
+.delivery{
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.delivery-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.delivery-text{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+}
+.delivery-card{
+    margin: 15px ;
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.delivery-card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.delivery-tag{
+    padding: 5px 10px;
+    top: 16px;
+    left: 10px;
+    position: absolute;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.health{
+    color: #49494F;
+    background: #D0FD89;
+}
+.vegetables{
+    color: #FFFFFF;
+    background: #AEBC41;
+}
+.meat{
+    color: #FFFFFF;
+    background: #B86B78;
+}
+.chiken{
+    background: #D68334;
+    color: #FFFFFF;
+}
+.fish{
+    background: #CD6255;
+    color: #FFFFFF;
+}
+.kids{
+    color: #49494F;
+    background: #FFFDBF;
+}
+.parents{
+    color: #49494F;
+    background: #F6FDC8;
+}
+.holidays{
+    color: #49494F;
+    background: #FEF7FE;
+}
+.category{
+    background-color: #F6F6F6;
+    padding-bottom: 60px;
+}
+.category-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    padding: 40px 0px;
+}
+.category-cards{
+    display: flex;
+    margin: -15px;
+}
+.category-card{
+    margin: 15px;
+    max-width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+.category-card-img{
+    max-width: 100%;
+}
+.category-card-tag{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    max-width: 200px;
+    margin-top: 21px;
+    margin-bottom: 13px;
+    margin-left: 23px;
+}
+.category-card-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+    max-width: 220px;
+    margin-left: 23px;
+    margin-bottom: 36px;
+}
+.category-card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.category-card-price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 23px;
+}
+.category-card-mass{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+    margin-left: 23px;
+}
+.button-outline{
+    padding: 15px 25px;
+    border: 2px solid #F37321;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+    background: transparent;
+    border-radius: 33px;
+    margin: 21px 24px;
+    cursor: pointer;
+}
+.category-tabs{
+    display: flex;
+    list-style-type: none;
+    /*margin: 0;*/
+    padding: 0;
+    margin-bottom: 62px;
+}
+.category-tab{
+    margin-right: 58px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494F;
+}
+.category-tab.active{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F37321;
+}
+.more{
+    display: block;
+    width: 315px;
+    margin: auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.benefit-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.benefit-cards{
+    display: flex;
+    margin: -15px;
+}
+.benefit-card{
+    max-width: 270px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    margin: 15px;
+    margin-bottom: 202px;
+}
+.benefit-card-img{
+    width: 60px;
+    height: 60px;
+    margin: 30px 105px;
+}
+.benefit-tag{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 23px;
+    color: #000000;
+    max-width: 158px;
+    margin-left: 56px;
+}
+.benefit-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494F;
+    max-width: 223px;
+    margin-left: 24px;
+}
+.grey{
+    background: #F6F6F6;
+    padding: 40px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    margin-right: 50px;
+}
+.write{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-right: 50px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.social-link{
+    margin-left: 20px;
+    text-decoration: none;
 }

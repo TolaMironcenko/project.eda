@@ -566,7 +566,7 @@ body{
         max-width: 90%;
     }
     .slide-title{
-        font-size: 35px;
+        font-size: 30px;
     }
     .delivery-card{
         width: 100%;
@@ -579,5 +579,10 @@ body{
     }
     .social-links{
         flex-wrap: wrap;
+        margin-right: 25px;
+    }
+    .footer-logo{
+        margin-left: 0;
+        margin-right: 25px;
     }
 }

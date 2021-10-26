@@ -565,6 +565,9 @@ body{
     .container{
         max-width: 90%;
     }
+    .slide{
+        padding: 40px;
+    }
     .slide-title{
         font-size: 30px;
     }
@@ -583,6 +586,12 @@ body{
     }
     .footer-logo{
         margin-left: 0;
-        margin-right: 25px;
+        margin-right: 40px;
+    }
+    .grey{
+        padding-left: 0 ;
+    }
+    .slider-buttons{
+        margin-bottom: 0;
     }
 }

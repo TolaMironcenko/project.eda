@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -42,15 +43,63 @@
         </a>
     </header>
     <main>
-        <div class="slider container">
-            <div class="slide slide-text-light slide-summer">
-                <img src="img/summer.png" alt="����" class="slide-image">
-                <div class="slide-content">
-                    <h2 class="slide-title">Неделя летних
-                        овощей</h2>
-                    <p class="slide-text">Специальная овощная корзина. Новые продукты,
-                        специальные цены, скидки!</p>
-                    <a href="#" class="button button-primary">Заказать со скидкой</a>
+        <div class="slider container"></div>
+        <!-- Slider main container -->
+        <div class="swiper container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide slide-text-light slide-summer">
+                        <img src="img/summer.png" alt="лето" class="slide-image">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Неделя летних
+                            овощей</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты,
+                            специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide slide-text-light slide-summer">
+                        <img src="img/otemn.png" alt="очень" class="slide-image">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Неделя осенних
+                                овощей</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты,
+                                специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide slide-text-light slide-summer">
+                        <img src="img/vitamin.png" alt="витамины" class="slide-image">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Витаминная неделя</h2>
+                            <p class="slide-text">Специальная овощная корзина. Новые продукты,
+                                специальные цены, скидки!</p>
+                            <a href="#" class="button button-primary">Заказать со скидкой</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="slider-buttons">
+                <div class="slider-button slider-button-prev">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" fill="#EBEBEB" fill-opacity="0.7"/>
+                        <path d="M24.752 31.994L14.879 22.121C14.3166 21.5584 14.0006 20.7955 14.0006 20C14.0006 19.2045 14.3166 18.4416 14.879 17.879L24.746 8.01201L26.16 9.42601L16.293 19.293C16.1055 19.4805 16.0002 19.7348 16.0002 20C16.0002 20.2652 16.1055 20.5195 16.293 20.707L26.166 30.58L24.752 31.994Z" fill="#F66A15"/>
+                    </svg>
+
+                </div>
+                <div class="slider-button slider-button-next">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="20" transform="rotate(-180 20 20)" fill="#EBEBEB" fill-opacity="0.7"/>
+                        <path d="M15.248 8.00599L25.121 17.879C25.6834 18.4416 25.9994 19.2045 25.9994 20C25.9994 20.7955 25.6834 21.5584 25.121 22.121L15.254 31.988L13.84 30.574L23.707 20.707C23.8945 20.5195 23.9998 20.2652 23.9998 20C23.9998 19.7348 23.8945 19.4805 23.707 19.293L13.834 9.41999L15.248 8.00599Z" fill="#F66A15"/>
+                    </svg>
+
                 </div>
             </div>
         </div>
@@ -93,35 +142,35 @@
             <h2 class="delivery-text">Доставка готовой еды на неделю</h2>
             <div class="delivery-cards">
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card1.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card1.png" alt="card1" class="delivery-card-image">
                     <span class="delivery-tag health">ЗОЖ</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card2.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card2.png" alt="card2" class="delivery-card-image">
                     <span class="delivery-tag vegetables">Овощное</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card3.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card3.png" alt="card3" class="delivery-card-image">
                     <span class="delivery-tag meat">Мясное</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card4.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card4.png" alt="card4" class="delivery-card-image">
                     <span class="delivery-tag chiken">Птица</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card5.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card5.png" alt="card5" class="delivery-card-image">
                     <span class="delivery-tag fish">Рыбное</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card6.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card6.png" alt="card6" class="delivery-card-image">
                     <span class="delivery-tag kids">Детское</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card7.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card7.png" alt="card7" class="delivery-card-image">
                     <span class="delivery-tag parents">Родителям</span>
                 </div>
                 <div class="delivery-card">
-                    <img src="./img/delivery/delivery-card8.png" class="delivery-card-image">
+                    <img src="./img/delivery/delivery-card8.png" alt="card8" class="delivery-card-image">
                     <span class="delivery-tag holidays">Праздничное</span>
                 </div>
             </div>
@@ -138,7 +187,7 @@
                 </ul>
                 <section class="category-cards">
                     <div class="category-card">
-                        <img src="./img/Category-card-img.png" class="category-card-img">
+                        <img src="./img/Category-card-img.png" alt="categ1" class="category-card-img">
                         <h3 class="category-card-tag">Куриные крылья под
                             соусом Терияки</h3>
                         <p class="category-card-description">Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
@@ -151,7 +200,7 @@
                         </div>
                     </div>
                     <div class="category-card">
-                        <img src="./img/Category-card-img.png" class="category-card-img">
+                        <img src="./img/Category-card-img.png" alt="categ2" class="category-card-img">
                         <h3 class="category-card-tag">Куриные крылья под
                             соусом Терияки</h3>
                         <p class="category-card-description">Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
@@ -164,7 +213,7 @@
                         </div>
                     </div>
                     <div class="category-card">
-                        <img src="./img/Category-card-img.png" class="category-card-img">
+                        <img src="./img/Category-card-img.png" alt="categ3" class="category-card-img">
                         <h3 class="category-card-tag">Куриные крылья под
                             соусом Терияки</h3>
                         <p class="category-card-description">Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
@@ -177,7 +226,7 @@
                         </div>
                     </div>
                     <div class="category-card">
-                        <img src="./img/Category-card-img.png" class="category-card-img">
+                        <img src="./img/Category-card-img.png" alt="categ4" class="category-card-img">
                         <h3 class="category-card-tag">Куриные крылья под
                             соусом Терияки</h3>
                         <p class="category-card-description">Соус Терияки придумали повора из Японии. По традиции его используют в качестве маринада для...</p>
@@ -199,7 +248,7 @@
             <h2 class="benefit-text">Наши преимущества</h2>
             <div class="benefit-cards">
                 <div class="benefit-card">
-                    <img src="./img/benefits/ben1.svg" class="benefit-card-img">
+                    <img src="./img/benefits/ben1.svg" alt="categ5" class="benefit-card-img">
                     <h3 class="benefit-tag">Какой путь проходит
                         ваша еда</h3>
                     <p class="benefit-description">Вы делаете заказ на коробку
@@ -208,19 +257,19 @@
                         для всей семьи</p>
                 </div>
                 <div class="benefit-card">
-                    <img src="./img/benefits/ben2.svg" class="benefit-card-img">
+                    <img src="./img/benefits/ben2.svg" alt="categ6" class="benefit-card-img">
                     <h3 class="benefit-tag">Как происходит
                         производство</h3>
                     <p class="benefit-description">За день до доставки мы сами готовим блюда из натуральных продуктов без консервантов, красителей и гмо</p>
                 </div>
                 <div class="benefit-card">
-                    <img src="./img/benefits/ben3.svg" class="benefit-card-img">
+                    <img src="./img/benefits/ben3.svg" alt="categ7" class="benefit-card-img">
                     <h3 class="benefit-tag">Высокие стандарты
                         качества</h3>
                     <p class="benefit-description">Наши повара с многолетним опытом с любовью готовят каждую порцию блюда</p>
                 </div>
                 <div class="benefit-card">
-                    <img src="./img/benefits/ben4.svg" class="benefit-card-img">
+                    <img src="./img/benefits/ben4.svg" alt="categ8" class="benefit-card-img">
                     <h3 class="benefit-tag">Быстрая и качественная
                         доставка</h3>
                     <p class="benefit-description">Сами доставим всё прямов
@@ -269,5 +318,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

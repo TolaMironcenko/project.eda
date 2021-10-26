@@ -565,7 +565,19 @@ body{
     .container{
         max-width: 90%;
     }
+    .slide-title{
+        font-size: 35px;
+    }
+    .delivery-card{
+        width: 100%;
+    }
     .category-card{
         max-width: 100%;
+    }
+    .benefit-card{
+        max-width: 100%;
+    }
+    .social-links{
+        flex-wrap: wrap;
     }
 }
